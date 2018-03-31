@@ -32,6 +32,7 @@ One of the Platform Studies Series of books depending on your workgroup.
 ## Schedule
 
 Week |	Meeting 1	| Meeting 2
+----- | ------ | ------
 1	| Introduction to Video Game Environments <br>Introduction to Platform Studies <br>Introduction to Pico-8<br>  | Basics of Lua Programming in Pico-8 <br>Overview of Pico-8 Tools and Structure<br>Game 1 Ideation and Team Formation<br>Assign Platform Studies Groups<br>
 2 | Basic Game Systems: Movement, Input, and Physics<br>Pixel Art<br>Game Design Workshop: Battle Battle |Game 1 Check-in<br>Primitive and Structured Datatypes in Lua<br>Game Design Workshop: Battle Battle
 3 | nalysis of Pico-8's<br>System Constraints<br>Managing Game States|Game 1 Play and Report<br>Game Production Cycles<br>Understanding Playtesting
