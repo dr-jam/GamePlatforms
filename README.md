@@ -78,3 +78,17 @@ Week |	Meeting 1	| Meeting 2
 8 | Platform Studies 3<br>Graphics Systems | Game 2 Playtesting
 9 | Platform Studies 4<br>Audio Systems | Game 2 Workshop
 10 | Artificial Intelligence for Games<br>Game 2 Workshop | Game 2 Critique<br>Discussion About the Course<br>Evaluations
+
+## UC Davis Code of Academic Conduct
+
+The UC Davis Code of Academic Conduct (http://sja.ucdavis.edu/files/cac.pdf) will be strictly enforced in this class. In particular, plagiarism, academic dishonesty, and cheating will be dealt with severely.  Any breach of the Code of Academic conduct can result in failing the assignment, failing the course, and displinary action via the Office of Student Support and Judicial Affairs (http://sja.ucdavis.edu/).
+
+## Technology in the Classroom Policy
+The use of laptops and technology in general are encouraged in this course as long as they are not disruptive to the rest of the class. If you choose to use a device with a screen, please sit in the back of the room to avoid distracting your fellow students. You are required to ask for permission before video or audio recording in the classroom. In general, students will be treated as adults capable of managing their technological lives while being respectful of others in the classroom.
+
+## Social Media Policy  
+Students are not permitted to make visual or audio recordings, including live streaming, of classroom lectures or any class related content, using any type of recording devices (e.g., smart phone, computer, digital recorder, etc.) unless prior permission from the instructor is obtained, and there are no objections from any of the students in the class. If permission is granted, personal use and sharing of recordings and any electronic copies of course materials (e.g., PowerPoints, formulas, lecture notes and any classroom discussions online or otherwise) is limited to the personal use of students registered in the course and for educational purposes only, even after the end of the course.
+
+To supplement the classroom experience, lectures may be audio or video recorded by faculty and made available to students registered for this class. Faculty may record classroom lectures or discussions for pedagogical use, future student reference, or to meet the accommodation needs of students with a documented disability. These recordings are limited to personal use and may not be distributed (fileshare), sold, or posted on social media outlets without the written permission of faculty.  
+
+Unauthorized downloading, file sharing, distribution of any part of a recorded lecture or course materials. or using information for purpose other than the student's own learning is prohibited unless prior authorization is given by the instructor. 
