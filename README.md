@@ -25,7 +25,7 @@ This course studies game platforms and their effect on development, design, the 
 ## Materials
 
 A copy of [Pico-8](https://www.lexaloffle.com/pico-8.php) (provided by CDM).  
-One of the Platform Studies Series of books depending on your workgroup (purchased by student).  
+One of the [Platform Studies Series](https://mitpress.mit.edu/books/series/platform-studies) of books depending on your workgroup (purchased by student).  
 
 
 ## Grading and Assessment
