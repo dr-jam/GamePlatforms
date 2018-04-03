@@ -22,6 +22,12 @@ Final Examination Period: Tuesday, June 12 – 3:30-5:30p.m.
 ## Course Description
 This course studies game platforms and their effect on development, design, the player, and the public. The domains of the class will be focused around video games including their design, development, and production while exploring platforms and their contexts through a holistic perspective  Through developing a set of games in and for the Pico-8 platform, students will further their technical skills in procedural literacy, content and asset creation, development of gameplay systems, and problem solving in digital media. Alongside technical development, production methods (e.g. game design documents, team software development methodology, playtesting, etc.) will be required. Finally, students will communicate their games to the outside world through pitches, open play testing sessions, press kits, and making their game accessible on the internet.
 
+## Materials
+
+A copy of Pico-8 (provided by CDM).  
+One of the Platform Studies Series of books depending on your workgroup (purchased by student).  
+
+
 ## Grading and Assessment
 * 20% Platforms Studies Presentation
 * 30% Game 1
@@ -40,10 +46,23 @@ This course studies game platforms and their effect on development, design, the 
   * Publishing and Press Kit
 * 10% Participation and Attendance
 
-## Materials
+### Grade Scale
 
-A copy of Pico-8 (provided by CDM).
-One of the Platform Studies Series of books depending on your workgroup (purchased by student).  
+Grade | Point Threshold
+------ | -------
+A  | 95
+A- | 90
+B+ | 87
+B  | 84
+B- | 80
+C+ | 77
+C  | 74
+C- | 70
+D+ | 67
+D  | 64
+D- | 60
+F  | 0
+
 
 ## Schedule
 
