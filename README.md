@@ -63,6 +63,17 @@ D  | 64
 D- | 60
 F  | 0
 
+### Game 1
+
+The initial game project serves as an initial foray into Pico-8 development. The emphasis will be on making a playable prototype based on game pitch in small teams.
+
+### Game 2
+
+The second game project is most impactful activity in the course. In teams, students will work through a standard indie development cycle from pitch to beta over the course or 7 weeks. This includes concept pitches, game design documents, prototypes, alphas, betas, gameplay testing, critiques, demos, presentations, and code reviews. This project necessitates a significant commitment of time and engagement. The resulting beta versions of the games will be held to a high standard of qualtiy among serveral dimension including art, visual design, user interface, gameplay, and rhetoric.
+
+### Platform Studies Presentation
+
+Every students will work in a team to give a long-format presentation over one of the books in the MIT Platform Studies series. To do this, every member of the team must read the subject book and work as a team to give an presentation that communicates the main themes and inferences of their book. These groups will be formed in class and assigned a book to purchase, read, and present over.
 
 ## Schedule
 
@@ -78,6 +89,15 @@ Week |	Meeting 1	| Meeting 2
 8 | Platform Studies 3<br>Graphics Systems | Game 2 Playtesting
 9 | Platform Studies 4<br>Audio Systems | Game 2 Workshop
 10 | Artificial Intelligence for Games<br>Game 2 Workshop | Game 2 Critique<br>Discussion About the Course<br>Evaluations
+
+
+## Development and Design Resources
+
+*coming soon!*
+
+## Attendance Policy
+This course has no formal attendance policy. However, regular attendance is greatly recommended to be successful in the course as many of the class meetings will involve programming and one-on-one learning. If you expect to be consistently absent, please discussion the situation with your instructor.
+
 
 ## UC Davis Code of Academic Conduct
 
