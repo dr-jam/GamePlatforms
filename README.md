@@ -25,25 +25,25 @@ This course studies game platforms and their effect on development, design, the 
 ## Grading and Assessment
 * 20% Platforms Studies Presentation
 * 30% Game 1
- * Design Document
- * Peer Review
- * Code Review 
- * Game Critique
- * Report
+  * Design Document
+  * Peer Review
+  * Code Review 
+  * Game Critique
+  * Report
 * 40% Game 2
- * Pitch
- * Design Document
- * Peer Review
- * Play Testing and Development Iteration
- * Code Review
- * Game Critique
- * Publishing and Press Kit
+  * Pitch
+  * Design Document
+  * Peer Review
+  * Play Testing and Development Iteration
+  * Code Review
+  * Game Critique
+  * Publishing and Press Kit
 * 10% Participation and Attendance
 
 ## Materials
 
-A copy of Pico-8 
-One of the Platform Studies Series of books depending on your workgroup.
+A copy of Pico-8 (provided by CDM).
+One of the Platform Studies Series of books depending on your workgroup (purchased by student).  
 
 ## Schedule
 
