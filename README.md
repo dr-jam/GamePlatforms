@@ -1,7 +1,23 @@
 # TCS198 Game Platforms
 
 # Syllabus
+## Basic Information
 
+### Instructor
+Dr. Joshua A. McCoy, Assistant Professor  
+Computer Science and Cinema and Digital Media Departments  
+Email: jamccoy at ucdavis dot edu  
+Office: 3033 Kemper Hall  
+Office Hours: Tuesdays 2:00-3:00pm and Fridays 10:00-11:00am  
+http://joshmccoy.com  
+https://faculty.engineering.ucdavis.edu/mccoy/  
+https://www.twitter.com/deftjams  
+https://www.twitch.tv/deftjamz  
+
+
+### Course
+Meeting Time: Tuesdays and Thursdays at 4:40-7:30 am in ARTANX 103 
+Final Examination Period: Tuesday, June 12 – 3:30-5:30p.m.
 
 ## Course Description
 This course studies game platforms and their effect on development, design, the player, and the public. The domains of the class will be focused around video games including their design, development, and production while exploring platforms and their contexts through a holistic perspective  Through developing a set of games in and for the Pico-8 platform, students will further their technical skills in procedural literacy, content and asset creation, development of gameplay systems, and problem solving in digital media. Alongside technical development, production methods (e.g. game design documents, team software development methodology, playtesting, etc.) will be required. Finally, students will communicate their games to the outside world through pitches, open play testing sessions, press kits, and making their game accessible on the internet.
