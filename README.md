@@ -93,6 +93,8 @@ Week |	Meeting 1	| Meeting 2
 
 ## Development and Design Resources
 
+[Pico-8 Game Template](https://github.com/misato/pico8-game-template)
+
 *coming soon!*
 
 ## Attendance Policy
