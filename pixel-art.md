@@ -8,6 +8,8 @@
 [Fill pattern dithering](https://www.lexaloffle.com/bbs/?tid=30231)  
 ![Palette and Poke Test](https://www.lexaloffle.com/bbs/cposts/1/14845.p8.png)  
 ![Palette fades](resources/p8palfades.png)  
+![Palette analysis](resources/grafx2-pico8-palette-analyzer.png)  
+
 ## examples
 [100 Pico Characters](http://pixeljoint.com/pixelart/97494.htm)  
 [Pico-8 Art Pinterest Board](https://www.pinterest.com/laurymichel/pico-8/)  
