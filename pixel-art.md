@@ -4,7 +4,7 @@
 [Pico-8 Sprite Animation Basics](https://www.lexaloffle.com/bbs/?pid=37142)  
 
 # Palette and Dithering
-[Pico-8 Color Palette for the web](https://www.romanzolotarev.com/pico-8-color-palette/)
+[Pico-8 Color Palette for the web](https://www.romanzolotarev.com/pico-8-color-palette/)  
 [Fill pattern dithering](https://www.lexaloffle.com/bbs/?tid=30231)  
 ![Palette and Poke Test](https://www.lexaloffle.com/bbs/cposts/1/14845.p8.png)  
 ![Palette fades](resources/p8palfades.png)  
