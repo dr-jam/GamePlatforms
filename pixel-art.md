@@ -19,6 +19,7 @@
 ## Resources
 [Pico-8 Pixel Art Template](http://pixeljoint.com/pixelart/109853.htm)  
 [Pico-8 Palette for Photoshop](http://terriblegames.com/downloads/Pico8.gpl)  
+[Pico-8 Twitter Hashtag](https://twitter.com/hashtag/pico8)  
 
 ## Talks
 [8 Bit & '8 Bitish' Graphics-Outside the Box](https://www.gdcvault.com/play/1023586/8-Bit-8-Bitish-Graphics) [via [YouTube]](https://www.youtube.com/watch?v=aMcJ1Jvtef0)  
