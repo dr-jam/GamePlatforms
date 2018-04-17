@@ -18,4 +18,4 @@
 
 
 ## Talks
-[8 Bit & '8 Bitish' Graphics-Outside the Box](https://www.gdcvault.com/play/1023586/8-Bit-8-Bitish-Graphics) [YouTube](https://www.youtube.com/watch?v=aMcJ1Jvtef0)
+[8 Bit & '8 Bitish' Graphics-Outside the Box](https://www.gdcvault.com/play/1023586/8-Bit-8-Bitish-Graphics) [via[YouTube]](https://www.youtube.com/watch?v=aMcJ1Jvtef0)
