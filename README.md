@@ -81,7 +81,7 @@ Week |	Meeting 1	| Meeting 2
 ----- | ------ | ------
 1	| Introduction to Video Game Environments <br>Introduction to Platform Studies <br>Introduction to Pico-8<br>  | Basics of Lua Programming in Pico-8 <br>Overview of Pico-8 Tools and Structure<br>Game 1 Ideation and Team Formation<br>Assign Platform Studies Groups<br>
 2 | Basic Game Systems: Movement, Input, and Physics<br>Pixel Art<br>Game Design Workshop: Battle Battle |Game 1 Check-in<br>Primitive and Structured Datatypes in Lua<br>Game Design Workshop: Battle Battle
-3 | nalysis of Pico-8's<br>System Constraints<br>Managing Game States|Game 1 Play and Report<br>Game Production Cycles<br>Understanding Playtesting
+3 | Analysis of Pico-8's<br>System Constraints<br>Managing Game States|Game 1 Play and Report<br>Game Production Cycles<br>Understanding Playtesting
 4 | Pitch for Game 2<br>Basic Game Loops and Events<br>Simulation of Time | Game 2 Teams Due<br>Game Design Documents
 5 | Debugging<br>Collision Detection | Game 2 Design Document<br>Economy of Tokens<br>Game Design Workshop: MDA
 6 | Platform Studies 1<br>Games and Rhetoric | Game 2 Prototype<br>Version Control
@@ -95,7 +95,7 @@ Week |	Meeting 1	| Meeting 2
 
 [Pico-8 Game Template](https://github.com/misato/pico8-game-template)
 
-*coming soon!*
+[*One Page Designs*](https://www.gdcvault.com/play/1012356/One-Page) [[slides]](http://stonetronix.com/gdc-2010/)  
 
 ## Attendance Policy
 This course has no formal attendance policy. However, regular attendance is greatly recommended to be successful in the course as many of the class meetings will involve programming and one-on-one learning. If you expect to be consistently absent, please discussion the situation with your instructor.
