@@ -15,6 +15,7 @@
 [First 48 Pokemon Characters](https://twitter.com/QaziTV/status/636021323756662784) by @QuaziTV  
 [100 Video Game Characters](https://twitter.com/johanvinet/status/635814153601597441) by @johanvinet  
 [Greyscale Samples](https://twitter.com/castpixel/status/600608894587707392)  
+[Horror Colors in Reaper Jr](https://www.lexaloffle.com/bbs/?tid=2403)
 
 ## Resources
 [Pico-8 Pixel Art Template](http://pixeljoint.com/pixelart/109853.htm)  
