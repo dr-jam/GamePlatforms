@@ -88,7 +88,7 @@ Week |	Meeting 1	| Meeting 2
 7 | Platform Studies 2<br>Level Design | Development Team Methodologies
 8 | Platform Studies 3<br>Graphics Systems | Game 2 Playtesting
 9 | Platform Studies 4<br>Audio Systems | Game 2 Workshop
-10 | Artificial Intelligence for Games<br>Game 2 Workshop | Game 2 Critique<br>Discussion About the Course<br>Evaluations
+10 | Platform Studies 5<br>Artificial Intelligence for Games<br>Game 2 Workshop | Game 2 Critique<br>Discussion About the Course<br>Evaluations
 
 
 ## Development and Design Resources
