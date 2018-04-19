@@ -26,4 +26,5 @@
 		channel index is explicitly requested by sfx().
 
 ## Tutorials
-[Audio System Tutorials](https://www.youtube.com/playlist?list=PLjZAika8vyZkyOjoCp0EbHeIFZ8MLlhvg)
+[Audio System Tutorials](https://www.youtube.com/playlist?list=PLjZAika8vyZkyOjoCp0EbHeIFZ8MLlhvg) by [Matt Tuttle](https://www.youtube.com/user/HeardTheWord13)  
+[Pico-8 Music Tutorials](https://www.youtube.com/playlist?list=PLur95ujyAigsqZR1aNTrVGAvXD7EqywdS) by [Gruber](https://www.youtube.com/channel/UCegheZHIpMbFwxbY4jrc8DA)  
