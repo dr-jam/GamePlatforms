@@ -27,7 +27,7 @@
 
 ## Virtual Keyboard by neko250
 
-![keyboard by neko250](resources/keybaord.png)  
+![keyboard by neko250](resources/keyboard.png)  
 [https://neko250.github.io/pico8-api]
 
 ## Tutorials
