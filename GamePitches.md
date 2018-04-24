@@ -2,7 +2,7 @@
 
 ## What is a Game Pitch?
 
-Game pitches come in a few formats: 1 sentence, 30 second, 2 minute, and ~10 minute visual presentations. 
+Game pitches come in a few formats: 1 sentence, 30 second, 2 minute, and ~5-15 minute visual presentations. 
 The goal of a game pitch is to communicate the novel, exciting, and desirable aspects of your game design vision to particular audience.
 Basically, your task is to effectively commmunicate a value proposition.
 Often, these audiences are producers, funders, juries, or some other people who are looking to find the best of many pitches.
