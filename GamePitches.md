@@ -38,6 +38,7 @@ Framing your pitch ([from Rami Ismail](https://www.gdcvault.com/play/1020877/In-
 [Pitching Secrets Revealed](https://www.gdcvault.com/play/1018065/Pitching-Secrets) by Cindy Au, Ian Baverstock, Chris Charla, John Cook, Pete Smith  
 [Pitching to Pbulishers: How to Impressa and What to Avoid](https://www.gdcvault.com/play/1016445/Pitching-to-Publishers-How-to) by Pete Smith  
 [Perfecting Pitchable Prototypes](https://www.gdcvault.com/play/1015490/Perfecting-Pitchable) by Nathan Martz  
-[The Other Side of the Table](https://www.gdcvault.com/play/1016254/The-Art-of) by Scott Rogers  
+[The Other Side of the Table](https://www.gdcvault.com/play/1016254/The-Art-of) by Scott Rogers 
+[How to Pitch Your Indie Game](http://www.tinybuild.com/how-to-pitch-your-game) by TinyBuild  
 
 
