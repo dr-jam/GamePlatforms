@@ -32,6 +32,12 @@ Framing your pitch ([from Rami Ismail](https://www.gdcvault.com/play/1020877/In-
 
 ## 
 [30 Things I hate About Your Game Pitch](https://www.youtube.com/watch?v=4LTtr45y7P0) by Brian Upton  
-[How to Creat a Pitch for your Video Gaem](https://www.youtube.com/watch?v=YAnQPWo9SWM by My Child Lebensborn  
+[How to Creat a Pitch for your Video Game](https://www.youtube.com/watch?v=YAnQPWo9SWM) by My Child Lebensborn  
 [Presenting our New Video Game Pitch](https://www.youtube.com/watch?v=CCm7qQwz1jU) by My Child Lebensborn  
-[How To Pitch Your Project To Publisers](https://www.gamasutra.com/view/feature/134571/how_to_pitch_your_project_to_.php)   
+[How To Pitch Your Project To Publishers](https://www.gamasutra.com/view/feature/134571/how_to_pitch_your_project_to_.php)  
+[Pitching Secrets Revealed](https://www.gdcvault.com/play/1018065/Pitching-Secrets) by Cindy Au, Ian Baverstock, Chris Charla, John Cook, Pete Smith  
+[Pitching to Pbulishers: How to Impressa and What to Avoid](https://www.gdcvault.com/play/1016445/Pitching-to-Publishers-How-to) by Pete Smith  
+[Perfecting Pitchable Prototypes](https://www.gdcvault.com/play/1015490/Perfecting-Pitchable) by Nathan Martz  
+[The Other Side of the Table](https://www.gdcvault.com/play/1016254/The-Art-of) by Scott Rogers  
+
+
