@@ -13,8 +13,11 @@ Often, these audiences are producers, funders, juries, or some other people who 
 * Is it feasible?
 * Do you have a team capable of completing a project?
 
+* Do you come across as someone who others would want to work with?
 
-##
+
+## 
 [30 Things I hate About Your Game Pitch](https://www.youtube.com/watch?v=4LTtr45y7P0) by Brian Upton  
 [How to Creat a Pitch for your Video Gaem](https://www.youtube.com/watch?v=YAnQPWo9SWM by My Child Lebensborn  
 [Presenting our New Video Game Pitch](https://www.youtube.com/watch?v=CCm7qQwz1jU) by My Child Lebensborn  
+[How To Pitch Your Project To Publisers](https://www.gamasutra.com/view/feature/134571/how_to_pitch_your_project_to_.php)  
