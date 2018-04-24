@@ -30,7 +30,7 @@ Framing your pitch ([from Rami Ismail](https://www.gdcvault.com/play/1020877/In-
 * What would you gain from what I'm pitching?
 * What would this gain cost?
 
-## 
+## Advice on Pitching
 [30 Things I hate About Your Game Pitch](https://www.youtube.com/watch?v=4LTtr45y7P0) by Brian Upton  
 [How to Creat a Pitch for your Video Game](https://www.youtube.com/watch?v=YAnQPWo9SWM) by My Child Lebensborn  
 [Presenting our New Video Game Pitch](https://www.youtube.com/watch?v=CCm7qQwz1jU) by My Child Lebensborn  
