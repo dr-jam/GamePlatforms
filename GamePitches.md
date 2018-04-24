@@ -17,7 +17,7 @@ Often, these audiences are producers, funders, juries, or some other people who 
 * Do you have a team capable of completing a project?
 * Do you come across as someone who others would want to work with?
 
-Framing your pitch ([from Rami Ismail](https://www.gdcvault.com/play/1020877/In-3-Sentences-or-Less]):
+Framing your pitch ([from Rami Ismail](https://www.gdcvault.com/play/1020877/In-3-Sentences-or-Less)):
 * Structure:
   * The lede
   * The body
