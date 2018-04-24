@@ -15,15 +15,20 @@ Often, these audiences are producers, funders, juries, or some other people who 
 * Is there an audience?
 * Is it feasible?
 * Do you have a team capable of completing a project?
-
 * Do you come across as someone who others would want to work with?
 
-Framing your pitch ([from Rami Ismail](https://www.gdcvault.com/play/1020877/In-3-Sentences-or-Less]) :
+Framing your pitch ([from Rami Ismail](https://www.gdcvault.com/play/1020877/In-3-Sentences-or-Less]):
+* Structure:
+  * The lede
+  * The body
+  * The call to action
 * What am I pitching?
 * Who am I pitching to?
 * Who am I?
 * Why am I pitching that?
 * Why am I pitching that to you?
+* What would you gain from what I'm pitching?
+* What would this gain cost?
 
 ## 
 [30 Things I hate About Your Game Pitch](https://www.youtube.com/watch?v=4LTtr45y7P0) by Brian Upton  
