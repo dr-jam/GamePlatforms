@@ -12,6 +12,7 @@ Often, these audiences are producers, funders, juries, or some other people who 
 
 Questions to answer when evaluating your idea for pitch:
 * Is it novel?
+* Can you explain your game in terms of other games?
 * Is there an audience?
 * Is it feasible?
 * Do you have a team capable of completing a project?
