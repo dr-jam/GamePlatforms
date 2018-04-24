@@ -10,12 +10,15 @@ Often, these audiences are producers, funders, juries, or some other people who 
 ## Key Features of a Good Pitch
 
 
-
+Questions to answer when evaluating your idea for pitch:
 * Is it novel?
 * Is there an audience?
 * Is it feasible?
 * Do you have a team capable of completing a project?
 * Do you come across as someone who others would want to work with?
+* Is this the right opportunity?
+* Is this is the right time?
+* Is this the right game?
 
 Framing your pitch ([from Rami Ismail](https://www.gdcvault.com/play/1020877/In-3-Sentences-or-Less)):
 * Structure:
@@ -40,5 +43,11 @@ Framing your pitch ([from Rami Ismail](https://www.gdcvault.com/play/1020877/In-
 [Perfecting Pitchable Prototypes](https://www.gdcvault.com/play/1015490/Perfecting-Pitchable) by Nathan Martz  
 [The Other Side of the Table](https://www.gdcvault.com/play/1016254/The-Art-of) by Scott Rogers 
 [How to Pitch Your Indie Game](http://www.tinybuild.com/how-to-pitch-your-game) by TinyBuild  
+
+## Examples and Resources
+[The Original Pitch for *Diablo*](http://www.graybeardgames.com/download/diablo_pitch.pdf) 
+[Indie Game Developer Pitch Deck Template](https://www.slideshare.net/bubbleguminteractive/indie-games-developer-pitch-deck-template)  
+
+
 
 
