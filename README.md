@@ -82,7 +82,7 @@ Week |	Meeting 1	| Meeting 2
 1	| Introduction to Video Game Environments <br>Introduction to Platform Studies <br>Introduction to Pico-8<br> Game Designer Card Excercise | Basics of Lua Programming in Pico-8 <br>Overview of Pico-8 Tools and Structure<br>First Game
 2 | Game Design Workshop: Battle Battle <br>Physics Systems | Assign Platform Studies Groups<br>Game Design Workshop: Battle Battle<br> One Page Design Documents
 3 | 16 Color Pixel Art <br>  Game 1 Ideation and Team Formation <br> One Page Design Documents Due |Game 1 Check-in<br>
-4 | Game 1 Play and Report<br> Games Pitches<br> | Game 2 Pitches <br> Game Design Documents
+4 | Game 1 Play and Report<br> Game Pitches<br> | Game 2 Pitches <br> Game Design Documents
 5 | Game 2 Teams Due <br> Debugging<br>Collision Detection | Game 2 Design Document<br>Economy of Tokens<br>Game Design Workshop: MDA
 6 | Platform Studies 1<br>Games and Rhetoric | Game 2 Prototype<br>Version Control
 7 | Platform Studies 2<br>Level Design | Development Team Methodologies
