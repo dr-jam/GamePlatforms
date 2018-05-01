@@ -7,7 +7,7 @@
 [Writing Great Design Documents](https://www.gdcvault.com/play/580/Writing-Great-Design) by Damion Schubert  
 [Effectively Organize Your Game's Development With a Game Design Document](http://code.tutsplus.com/articles/effectively-organize-your-games-development-with-a-game-design-document--active-10140) by Gamux  
 
-## 
+## Non-traditional Forms of Game Design Documents
 [One Page Designs](http://www.gamasutra.com/blogs/JasonBakker/20090604/84211/A_GDD_Template_for_the_Indie_Developer.php) by Stone Librande  
 [A GDD Template for the Indie Developer](http://www.gamasutra.com/blogs/JasonBakker/20090604/84211/A_GDD_Template_for_the_Indie_Developer.php) by Jason Bakker  
 [Nuff Said: Comics as Design Documents](https://www.gdcvault.com/play/1020456/-Nuff-Said-Comics-as) by Matthew Derby  
