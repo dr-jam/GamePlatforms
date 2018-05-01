@@ -6,6 +6,7 @@
 [Creating a Game Design Document](https://bbrathwaite.wordpress.com/2008/11/30/creating-a-game-design-document/) by Brenda Romero  
 [Writing Great Design Documents](https://www.gdcvault.com/play/580/Writing-Great-Design) by Damion Schubert  
 [Effectively Organize Your Game's Development With a Game Design Document](http://code.tutsplus.com/articles/effectively-organize-your-games-development-with-a-game-design-document--active-10140) by Gamux  
+[Creating A Great Design Document](https://www.gamasutra.com/view/feature/131632/creating_a_great_design_document.php) by Tzvi Freeman  
 
 ## Non-traditional Forms of Game Design Documents
 [One Page Designs](http://www.gamasutra.com/blogs/JasonBakker/20090604/84211/A_GDD_Template_for_the_Indie_Developer.php) by Stone Librande  
