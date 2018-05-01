@@ -7,5 +7,6 @@
 [A GDD Template for the Indie Developer](http://www.gamasutra.com/blogs/JasonBakker/20090604/84211/A_GDD_Template_for_the_Indie_Developer.php) by Jason Bakker  
 [Effectively Organize Your Game's Development With a Game Design Document](http://code.tutsplus.com/articles/effectively-organize-your-games-development-with-a-game-design-document--active-10140) by Gamux  
 [A 4 Hour Story in 400 Simple Steps: Fallout DLC](https://www.gdcvault.com/play/1016552/A-4-Hour-Story-in) by Chris Avellone  
+[Character Wrangling: Managing Large Casts with Documentation and Design](https://www.gdcvault.com/play/1023444/Character-Wrangling-Managing-Large-Casts) by Leah Miller  
 ~Database of Design Documents~  
 ~Database of Game Pitches~  
