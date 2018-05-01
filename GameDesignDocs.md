@@ -1,4 +1,4 @@
-= Game Design Documents
+# Game Design Documents
 
 (The "Core" of a Game)[https://bbrathwaite.wordpress.com/2008/10/15/the-core-of-a-game/] by Brenda Romero  
 (A Feature Set from a “Core”)[https://bbrathwaite.wordpress.com/2008/10/17/a-feature-set-from-a-core/] by Brenda Romero  
