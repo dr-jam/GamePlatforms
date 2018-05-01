@@ -6,5 +6,5 @@
 [One Page Designs](http://www.gamasutra.com/blogs/JasonBakker/20090604/84211/A_GDD_Template_for_the_Indie_Developer.php) by Stone Librande  
 [A GDD Template for the Indie Developer](http://www.gamasutra.com/blogs/JasonBakker/20090604/84211/A_GDD_Template_for_the_Indie_Developer.php) by Jason Bakker  
 [Effectively Organize Your Game's Development With a Game Design Document](http://code.tutsplus.com/articles/effectively-organize-your-games-development-with-a-game-design-document--active-10140) by Gamux  
-~Database of Design Documents~
-~Database of Game Pitches~
+~Database of Design Documents~  
+~Database of Game Pitches~  
