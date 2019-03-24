@@ -19,6 +19,7 @@ https://www.twitch.tv/deftjamz
 
 ### Course
 Meeting Time: Tuesdays and Thursdays at 4:40 - 7:30 PM in ARTANX103
+
 Final Examination Period: Friday, June 7th at 1:00-3:00 PM
 
 ## Course Description
