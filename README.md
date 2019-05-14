@@ -84,14 +84,14 @@ Week |	Meeting 1	| Meeting 2
 ----- | ------ | ------
 1	| Introduction to Video Game Environments <br>Introduction to Platform Studies <br>Introduction to Pico-8<br> Game Designer Card Excercise | Basics of Lua Programming in Pico-8 <br>Overview of Pico-8 Tools and Structure<br>First Game
 2 | Sprites and Sprite Maps <br> One Page Design Documents |  Pico-9 Sound Tutorial
-3 | Review Prototype Games <br> Game 1 Ideation and Team Formation <br>  | Physics Systems <br> Game 1 Check-in<br> Game Design Workshop: Battle Battle 
+3 | Review Prototype Games <br> Game 1 Ideation and Team Formation <br>  | Physics Systems <br> Game 1 Check-in 
 4 |  Game Design Workshop: Battle Battle | Game 1 Due: Play and Report<br> One Page Design Documents Dues <br> 16 Color Pixel Art
 5 | Game Pitches <br>Debugging<br>Collision Detection | Game 2 Pitches<br>  Economy of Tokens
-6 | Game 2 Teams Due <br> Platform Studies 1<br>Games and Rhetoric | Game 2 Prototype<br>Version Control
-7 | Platform Studies 2<br>Level Design | Development Team Methodologies <br> Game Design Workshop: MDA
-8 | Platform Studies 3<br>Graphics Systems | Game 2 Playtesting
-9 | Platform Studies 4<br>Audio Systems | Game 2 Workshop
-10 | Platform Studies 5<br>Artificial Intelligence for Games<br>Game 2 Workshop | Game 2 Critique<br>Discussion About the Course<br>Evaluations
+6 | Game 2 Teams Due <br> Games and Rhetoric<br> Game Design Workshop: Battle Battle |  Platform Studies 1<br> Game Design Workshop: Battle Battle
+7 | Level Design | Platform Studies 2<br> Game 2 Prototype<br> Game Design Workshop: MDA
+8 | Graphics Systems | Platform Studies 3<br>Game 2 Playtesting
+9 | Audio Systems | Platform Studies 4<br>Game 2 Workshop
+10 | Artificial Intelligence for Games<br>Game 2 Workshop |  Platform Studies 5<br> Game 2 Critique<br>Discussion About the Course<br>Evaluations
 
 
 ## Development and Design Resources
