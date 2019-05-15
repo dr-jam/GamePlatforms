@@ -72,7 +72,7 @@ The initial game project serves as an initial foray into Pico-8 development. The
 
 ### Game 2
 
-The second game project is most impactful activity in the course. In teams, students will work through a standard indie development cycle from pitch to beta over the course or 7 weeks. This includes concept pitches, game design documents, prototypes, alphas, betas, gameplay testing, critiques, demos, presentations, and code reviews. This project necessitates a significant commitment of time and engagement. The resulting beta versions of the games will be held to a high standard of qualtiy among serveral dimension including art, visual design, user interface, gameplay, and rhetoric.
+The second game project is most impactful activity in the course. In teams, students will work through a standard indie development cycle from pitch to beta. This includes concept pitches, game design documents, prototypes, alphas, betas, gameplay testing, critiques, demos, presentations, and code reviews. This project necessitates a significant commitment of time and engagement. The resulting beta versions of the games will be held to a high standard of qualtiy among serveral dimension including art, visual design, user interface, gameplay, and rhetoric.
 
 ### Platform Studies Presentation
 
@@ -88,10 +88,10 @@ Week |	Meeting 1	| Meeting 2
 4 |  Game Design Workshop: Battle Battle | Game 1 Due: Play and Report<br> One Page Design Documents Dues <br> 16 Color Pixel Art
 5 | Game Pitches <br>Debugging<br>Collision Detection | Game 2 Pitches<br>  Economy of Tokens
 6 | Game 2 Teams Due <br> Games and Rhetoric<br> Game Design Workshop: Battle Battle |  Platform Studies 1<br> Game Design Workshop: Battle Battle
-7 | Level Design | Platform Studies 2<br> Game 2 Prototype<br> Game Design Workshop: MDA
-8 | Graphics Systems | Platform Studies 3<br>Game 2 Playtesting
-9 | Audio Systems | Platform Studies 4<br>Game 2 Workshop
-10 | Artificial Intelligence for Games<br>Game 2 Workshop |  Platform Studies 5<br> Game 2 Critique<br>Discussion About the Course<br>Evaluations
+7 | Game Engines vs Platforms | Platform Studies 2<br> Game 2 Prototype Due<br> Game Design Workshop: MDA
+8 | Audio and Video Signals | Platform Studies 3<br>Game 2 Playtesting
+9 | Game 2 Alpha Due <br> Audio Systems | Platform Studies 4<br>Game 2 Workshop
+10 | Artificial Intelligence for Games<br>Game 2 Workshop |  Platform Studies 5<br> Game 2 Beta Due<br>Discussion About the Course<br>Evaluations
 
 
 ## Development and Design Resources
