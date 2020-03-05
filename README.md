@@ -1,6 +1,6 @@
 # CDM198 Game Platforms
 
-CRN: 91835
+CRN: 56880
 
 # Syllabus
 ## Basic Information
@@ -10,7 +10,7 @@ Dr. Joshua A. McCoy, Assistant Professor
 Computer Science and Cinema and Digital Media Departments  
 Email: jamccoy at ucdavis dot edu  
 Office: 3033 Kemper Hall  
-Office Hours: Mondays 4:15 to 5:15 PM and by appointment.  
+Office Hours: TBA  
 http://joshmccoy.com  
 https://faculty.engineering.ucdavis.edu/mccoy/  
 https://www.twitter.com/deftjams  
@@ -18,7 +18,7 @@ https://www.twitch.tv/deftjamz
 
 
 ### Course
-Meeting Time: Tuesdays and Thursdays at 4:40 - 7:30 PM in ARTANX103
+Meeting Time: Mondays and Wednesday at 4:40 - 7:30 PM in ARTANX103 (the Mac Lab)
 
 Final Examination Period: Friday, June 7th at 1:00-3:00 PM
 
