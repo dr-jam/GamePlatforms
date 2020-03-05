@@ -1,6 +1,6 @@
 # CDM198 Game Platforms
 
-CRN: 56880
+CRN for spring 2020: 56880
 
 # Syllabus
 ## Basic Information
