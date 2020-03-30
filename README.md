@@ -18,7 +18,7 @@ https://www.twitch.tv/deftjamz
 
 
 ### Course
-Meeting Time: Mondays and Wednesday at 4:40 - 7:30 PM in ~ARTANX103 (the Mac Lab)~
+Meeting Time: Mondays and Wednesday at 4:40 - 7:30 PM in ~ARTANX103 (the Mac Lab)~  
 Final Examination Period: ~Friday, June 7th at 1:00-3:00 PM~
 
 ## Course Description
