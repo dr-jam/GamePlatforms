@@ -82,11 +82,11 @@ Every students will work in a team to give a long-format presentation over one o
 Week |	Meeting 1	| Meeting 2
 ----- | ------ | ------
 1	| Introduction to Video Game Environments <br>Introduction to Platform Studies <br>Introduction to Pico-8<br> Game Designer Card Excercise | Basics of Lua Programming in Pico-8 <br>Overview of Pico-8 Tools and Structure<br>First Game
-2 | Sprites and Sprite Maps <br> One Page Design Documents |  Pico-9 Sound Tutorial
-3 | Review Prototype Games <br> Game 1 Ideation and Team Formation <br>  | Physics Systems <br> Game 1 Check-in 
-4 |  Game Design Workshop: Battle Battle | Game 1 Due: Play and Report<br> One Page Design Documents Dues <br> 16 Color Pixel Art
-5 | Game Pitches <br>Debugging<br>Collision Detection | Game 2 Pitches<br>  Economy of Tokens
-6 | Game 2 Teams Due <br> Games and Rhetoric<br> Game Design Workshop: Battle Battle |  Platform Studies 1<br> Game Design Workshop: Battle Battle
+2 | Sprites and Sprite Maps <br> Pico-8 Building Blocks  |  Pico-9 Sound Tutorial <br> One Page Design Documents
+3 | Review Sound Carts <br> Game 1 Studio  | Game Pitches <br>  Game 1 Check-in 
+4 |  Physics Systems <br> Game 1 Due: Play and Report <br> One Page Design Documents Dues  |  Game 2 Pitches Due <br> 16 Color Pixel Art <br> Choosing Platform Studies Reading
+5 |  Debugging  |  Economy of Tokens <br> Collision Detection
+6 | Game 2 Teams Due <br> Games and Rhetoric <br> Game Design Workshop: Battle Battle |  Platform Studies 1 <br> Game Design Workshop: Battle Battle
 7 | Game Engines vs Platforms | Platform Studies 2<br> Game 2 Prototype Due<br> Game Design Workshop: MDA
 8 | Audio and Video Signals | Platform Studies 3<br>Game 2 Playtesting
 9 | Game 2 Alpha Due <br> Audio Systems | Platform Studies 4<br>Game 2 Workshop
