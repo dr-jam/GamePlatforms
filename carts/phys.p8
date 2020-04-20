@@ -1,9 +1,12 @@
 pico-8 cartridge // http://www.pico-8.com
 version 16
 __lua__
+--controls debug printing
+debug_print = false
+
 --basic world parameters
 g = {x=0,y=49.2}
-floor = 60
+floor = 100
 drag = 4.5
 
 player = {}
@@ -105,24 +108,29 @@ end
 
 function _draw()
 	cls(2)
-	line(0, 60, 128, 60)
+	--the ground
+	line(0, floor, 128, floor)
 	circ(player.x, player.y - player.radius/2, 5, player.radius)
-	print(player.velx, player.x+3, player.y-11, 10)
-	print(player.vely, player.x+3, player.y-5, 10)
-	print(player.jumping, player.x+3, player.y-17, 10)
-	print(player.canjump, player.x+3, player.y-23, 10)
+	if debug_print then
+	  print(player.velx, player.x+3, player.y-11, 10)
+	  print(player.vely, player.x+3, player.y-5, 10)
+	  print(player.jumping, player.x+3, player.y-17, 10)
+	  print(player.canjump, player.x+3, player.y-23, 10)
+	end
 	draw_input()
 end
 
 function draw_input()
 	if btn(0) then
-		pset(player.x-1, player.y, 7)
+		pset(player.x-1, player.y-3, 12)
 	end
 	if btn(1) then
-		pset(player.x+1, player.y, 6)
+		pset(player.x+1, player.y-3, 8)
 	end
 	if btn(2) then
-	 pset(player.x, player.y-1, 8)
+	 pset(player.x, player.y-4, 11)
 	end
-
+ if btnp(4) then
+	 debug_print = not debug_print
+	end
 end
