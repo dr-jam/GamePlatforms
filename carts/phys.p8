@@ -109,7 +109,7 @@ end
 function _draw()
 	cls(2)
 	--the ground
-	line(0, floor, 128, floor)
+	line(0, floor, 128, floor, 9)
 	circ(player.x, player.y - player.radius/2, 5, player.radius)
 	if debug_print then
 	  print(player.velx, player.x+3, player.y-11, 10)
