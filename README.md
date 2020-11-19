@@ -1,6 +1,6 @@
 # CDM198 Game Platforms
 
-CRN for spring 2020: 56880
+CRN for winter 2021: 16007
 
 # Syllabus
 ## Basic Information
@@ -18,8 +18,8 @@ https://www.twitch.tv/deftjamz
 
 
 ### Course
-Meeting Time: Mondays and Wednesday at 4:10 - 7:00 PM in ~ARTANX103 (the Mac Lab)~  
-Final Examination Period: ~Friday, June 7th at 1:00-3:00 PM~
+Meeting Time: Tuesdays and Thursdays at 6:10 - 9:00 PM via remote instruction
+Final Examination Period: Wednesday, March 17—8:30 p.m.-10:30 PM
 
 ## Course Description
 This course studies game platforms and their effect on development, design, the player, and the public. The domains of the class will be focused around video games including their design, development, and production while exploring platforms and their contexts through a holistic perspective  Through developing a set of games in and for the Pico-8 platform, students will further their technical skills in procedural literacy, content and asset creation, development of gameplay systems, and problem solving in digital media. Alongside technical development, production methods (e.g. game design documents, team software development methodology, playtesting, etc.) will be required. Finally, students will communicate their games to the outside world through pitches, open play testing sessions, press kits, and making their game accessible on the internet.
