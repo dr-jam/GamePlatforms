@@ -18,7 +18,7 @@ https://www.twitch.tv/deftjamz
 
 
 ### Course
-Meeting Time: Tuesdays and Thursdays at 6:10 - 9:00 PM via remote instruction
+Meeting Time: Tuesdays and Thursdays at 6:10 - 9:00 PM via remote instruction  
 Final Examination Period: Wednesday, March 17—8:30 p.m.-10:30 PM
 
 ## Course Description
