@@ -18,8 +18,8 @@ https://www.twitch.tv/deftjamz
 
 
 ### Course
-Meeting Time: Tuesdays and Thursdays at 10:00 AM - 12:50 PM in Cruess 1106 (first week of instruction is remote)
-Final Examination Period: Thursday, March 17—6:00 PM -8:00 PM
+Meeting Time: Tuesdays and Thursdays at 10:00 AM - 12:50 PM in Cruess 1106  
+Final Examination Period: Thursday, March 17—6:00 PM -8:00 PM  
 
 ## Course Description
 This course studies game platforms and their effect on development, design, the player, and the public. The domains of the class will be focused around video games including their design, development, and production while exploring platforms and their contexts through a holistic perspective  Through developing a set of games in and for the Pico-8 platform, students will further their technical skills in procedural literacy, content and asset creation, development of gameplay systems, and problem solving in digital media. Alongside technical development, production methods (e.g. game design documents, team software development methodology, playtesting, etc.) will be required. Finally, students will communicate their games to the outside world through pitches, open play testing sessions, press kits, and making their game accessible on the internet.
