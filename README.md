@@ -30,7 +30,7 @@ One of the [Platform Studies Series](https://mitpress.mit.edu/books/series/platf
 
 
 ## Grading and Assessment
-* 20% Platforms Studies Presentation
+* 20% Platforms Studies Project
 * 30% Game 1
   * Design Document
   * Peer Review
