@@ -48,7 +48,3 @@ Framing your pitch ([from Rami Ismail](https://www.gdcvault.com/play/1020877/In-
 ## Examples and Resources
 [The Original Pitch for *Diablo*](http://www.graybeardgames.com/download/diablo_pitch.pdf)  
 [Indie Game Developer Pitch Deck Template](https://www.slideshare.net/bubbleguminteractive/indie-games-developer-pitch-deck-template)  
-
-
-
-
