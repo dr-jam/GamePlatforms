@@ -1,5 +1,5 @@
 pico-8 cartridge // http://www.pico-8.com
-version 29
+version 43
 __lua__
 --grid-based map movement
 --patreon.com/mboffin
