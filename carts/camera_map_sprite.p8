@@ -17,7 +17,7 @@ function _update()
 	handle_player_input()
 end
 
-function _draw()
+
 function _draw()
  cls()
 
@@ -34,7 +34,6 @@ function _draw()
  camera()
  
  print(x .. " " .. y)
-end
 	
 end
 -->8
@@ -42,7 +41,7 @@ function handle_player_input()
 	local dx = 0
 	local dy = 0
 	if btn(⬆️) then
-		dy -1
+		dy = -1
 	end
 	
 	if btn(⬇️) then
@@ -57,27 +56,9 @@ function handle_player_input()
 		dx = -1
 	end
 	
-	impass(dx, dy)
 	
 	x += dx
 	y += dy
-end
--->8
-function impass(dx, dy)
-	--dx,dy with x,y can tell us
-	--which tile the player is 
-	--stepping into
-	
-	local tile_x = x
-	local tile_y = 0
-	--is the player moving into
-	--a new tile in the x-axis?
-	if (x + dx) % 8 == 0 then
-	 if dx < 0 then
-	 	tile_x = 1 + flr(x/8)
-	 elseif xd > 0 then
-	 	 
-	  
 end
 __gfx__
 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
