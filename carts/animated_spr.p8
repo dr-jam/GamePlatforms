@@ -37,7 +37,7 @@ function _draw()
 	draw_fancy_fire()
 	color(8)
 	print("dt: " .. dt)
-	print("last_time: " .. flr(10*last_time)/10)
+	print("last_time: " ..  flr(10*last_time)/10)
 	print("fire_dt: " .. fire_dt)
 	print("fire_spr: " .. fire_spr)
 end
@@ -86,11 +86,12 @@ end
 fire_frames = {1, 2, 3, 4, 5, 6, 7, 8}
 fire_frame = 1
 anim_timer = 0
+anim_dt = 0.25
 
 function standard_fire()
  anim_timer += dt
 
- if anim_timer > 0.25 then
+ if anim_timer > anim_dt then
   anim_timer = 0
   fire_frame += 1
   if fire_frame > #fire_frames then
@@ -107,9 +108,10 @@ end
 
 f_fire_frames = {1, 2, 3, 4, 5, 6, 7, 8}
 fancy_fire_spr = 1
+fffps = 4 
 
 function fancy_fire()
- fancy_fire_spr = f_fire_frames[flr(time() * 4) % #fire_frames + 1]
+ fancy_fire_spr = f_fire_frames[flr(time() * fffps) % #f_fire_frames + 1]
 end
 
 function draw_fancy_fire()
