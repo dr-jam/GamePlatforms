@@ -1,6 +1,6 @@
 # PICO-8 Audio
 
-## What PICO-8 audio is
+## What is PICO-8 audio?
 
 A PICO-8 cartridge has 64 SFX slots. Each SFX contains 32 notes**, and each note stores pitch, instrument, volume, and effect. Each SFX also has a speed (SPD) plus loop start / loop end values. If only the first loop value is set and the second is `0`, PICO-8 treats it as a length (LEN) instead of a loop. 
 
