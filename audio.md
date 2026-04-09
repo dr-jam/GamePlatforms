@@ -102,9 +102,44 @@ The `channel_mask` in `music()` reserves channels for music playback, although `
 4. Add effects, filters, and speed changes*for variation.
 5. Export audio with `EXPORT FOO.WAV` (`FOO` is a placehodler name for whatever name you want to use) if you want a WAV file of the current SFX or current music pattern. 
 
-## Beginner tip
+## Beginner Tips
 
-If you are not comfortable with music theory, use pitch mode with CTRL held dow* to snap notes to the current scale. By default this is C minor pentatonic, and the scale can be changed in the scale editor. 
+- **Use pitch mode for sound effects and tracker mode for music.**  
+  Pitch mode is usually the easiest place to start for jumps, hits, menu sounds, and other short effects. Tracker mode is better once you want to enter melodies and rhythms more precisely.
+
+- **Hold `CTRL` in pitch mode to stay in key.**  
+  This snaps notes to the current scale, which makes it much easier to make something musical even without much music theory.
+
+- **Start with very short sounds.**  
+  Make a jump sound, a coin sound, a hit sound, or a menu blip before trying to write a full song.
+
+- **Treat speed as part of the sound design.**  
+  Sometimes a sound feels wrong because the speed is off, not because the notes are wrong. Try changing `SPD` before rewriting everything.
+
+- **Use effects before making a melody more complicated.**  
+  Slide, vibrato, drop, fade in, fade out, and arpeggios can make a simple sound feel much richer.
+
+- **Build songs out of reusable chunks.**  
+  A good beginner workflow is to make one SFX for drums, one for bass, one for melody, and then combine them in the music editor.
+
+- **Use LEN for shorter phrases.**  
+  You do not always need to use all 32 notes. Shorter phrases are easier to control and are useful for odd meters or compact loops.
+
+- **Leave yourself a sound-effects channel.**  
+  If all four channels are busy with music, gameplay sounds may get crowded out. It is often smart to leave some room for sound effects.
+
+- **When a sound matters, choose the channel explicitly.**  
+  For important sounds like player damage or menu confirmation, it can be better to call `sfx()` on a specific channel instead of letting PICO-8 choose automatically.
+
+- **Do not rush into custom instruments.**  
+  Learn the built-in instruments and note effects first. They go a long way, and the more advanced instrument system will make more sense afterward.
+
+- **Use filters sparingly at first.**  
+  Try one filter at a time so you can hear what it actually does.
+
+- **Export often and listen outside the editor.**  
+  A sound that seems fine in the editor may feel too weak, too loud, or too muddy in context. Exporting and listening again helps.
+
 
 ## Practice exercise
 
