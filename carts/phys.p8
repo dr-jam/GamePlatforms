@@ -1,11 +1,11 @@
 pico-8 cartridge // http://www.pico-8.com
-version 16
+version 43
 __lua__
 --controls debug printing
 debug_print = false
 
 --basic world parameters
-g = {x=0,y=49.2}
+g = {x=0,y=149.2}
 floor = 100
 drag = 4.5
 
@@ -19,7 +19,7 @@ player.mx = 0
 player.my = 0
 
 --player movement speed
-player.accel = 15
+player.accel = 40
 player.velx = 0
 player.vely = 0
 player.maxvel = 12
