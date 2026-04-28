@@ -17,9 +17,9 @@ end
 function _draw()
  cls()
  print(time())
-	print(stat(1))
-	print(stat(0))
-	print(stat(7))
+	print(stat(1)) --cpu usage
+	print(stat(0)) --memory usage
+	print(stat(7)) --fps
 	print(particle_systems[1].active)
 	draw_particle_systems()
 end
@@ -60,16 +60,14 @@ function make_particle_system(particle_count)
 end
 
 function update_particle_systems()
-	for psi=1,#particle_systems do
-		local ps = particle_systems[psi]
+	for ps in all(particle_systems) do
 		local active_check = false
 		if not ps.active then
 			break
 		end
 		
-		for pi=1,#ps.particles do
+		for p in all(ps.particles) do
 			
-			local p = ps.particles[pi]
 			if not p.fired and p.start <= time() then
 				p.active = true
 				p.fired = true
@@ -107,7 +105,9 @@ function draw_particle_systems()
 		for pi=1,#ps.particles do	
 			local p = ps.particles[pi]
 			if p.dur > 0 then
-			 print("🐱",p.x, p.y,9)
+				pset(p.x, p.y, 9)
+			 --print("🐱",p.x, p.y,9)
+			 circ(p.x, p.y, 4, 9)
 			end
 		end
 	end
