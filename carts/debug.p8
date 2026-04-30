@@ -12,6 +12,12 @@ tasks:
 --have 🅾️ purchase the selected item
 --manage the player's silver
 -using printh, log the transactions
+-make two tagged output channels
+-- 1. [store]
+-- 2. [player]
+-- log all of the game actions
+-- that fit into those two groups
+--ex. printh("[store] spent " .. item.value .. " silver on a " .. item.name, "debug.txt", true)
 
 ]]
 
