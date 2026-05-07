@@ -1,5 +1,5 @@
 pico-8 cartridge // http://www.pico-8.com
-version 39
+version 43
 __lua__
 function _init()
  --only define variables here!
@@ -24,6 +24,13 @@ function _update60()
 
  move_enemies()
 -- move_powerups()
+
+	if btn(⬆️) then
+		p.y -= 1
+	end
+	if btn(⬇️) then
+		p.y += 1
+	end
  
 end
 
@@ -33,6 +40,7 @@ function _draw()
  draw_enemies()
  print(#enemies)
  print(frame_count)
+ spr(p.sprite, p.x, p.y)
  frame_count += 1
 end
 -->8
