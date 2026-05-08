@@ -72,7 +72,7 @@ The initial game project serves as an initial foray into Pico-8 development. The
 
 The second game project is most impactful activity in the course. In teams, students will work through a standard indie development cycle from pitch to beta. This includes concept pitches, game design documents, prototypes, alphas, betas, gameplay testing, critiques, demos, presentations, and code reviews. This project necessitates a significant commitment of time and engagement. The resulting beta versions of the games will be held to a high standard of qualtiy among serveral dimension including art, visual design, user interface, gameplay, and rhetoric.
 
-### Platform Studies Presentation
+### Platform Studies Media Project
 
 Every students will work in a team to give a long-format presentation over one of the books in the MIT Platform Studies series. To do this, every member of the team must read the subject book and work as a team to give an presentation that communicates the main themes and inferences of their book. These groups will be formed in class and assigned a book to purchase, read, and present over.
 
