@@ -14,7 +14,11 @@ Watch the study videos in the following order:
 
 ## Task
 
-Your task is to identify at least 3 concepts, rules of thumb, or tools from the study videos in a way that applies them to your game project.
+Your task is to identify at least 3 concepts, rules of thumb, or tools from the study videos in a way that applies them to your game project. Here are the details:
+* Take a screenshot or sketch of your Game 2.
+* Mark it up, draw on it, sketch on it, or otherwise indicate the three places where your three concepts fit into your game.
+* Write a paragraph per item describing the details of the juice-adding concept, how it fits into your design, and where in the videos this concept was discussed.
+* Turn it in appropriately-named class folder.
 
 ## Supplementary Material
 
