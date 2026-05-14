@@ -8,6 +8,7 @@ __lua__
 gs = "title"
 
 function _init()
+ 
 	last_update = time()
 	last_draw = time()
 	dt = 0
@@ -32,6 +33,7 @@ function update_play_state()
  paddle_input() 
  update_balls()
  collisions()
+ update_screen_shake()
 
  if btnp(🅾️) then
   gs = "juicebar"
@@ -44,18 +46,13 @@ function update_title_state()
  end
 end
 
-function update_juice_bar_state()
- if btnp(🅾️) then
-  gs = "play"
- elseif btnp(❎) then
-  gs = "play"
-  reset_level()
- end
-end
+
 
 function _draw() 
 	dt = time() - last_draw
 	last_draw = time()
+
+ camera()
 
  if "play" == gs then
   draw_play_state()
@@ -72,7 +69,17 @@ function draw_title_state()
 end
 
 function draw_play_state()
+ --color config toggle
+ if not is_cfg_on("color") then
+  color_off()
+ else
+  pal()
+ end
+ 
  cls(0)
+
+ draw_screen_shake()
+
  draw_walls()
  draw_paddle()
  draw_balls()
@@ -81,10 +88,7 @@ function draw_play_state()
  print(debug)
 end
 
-function draw_juice_bar_state()
- cls(0)
- print("🅾️ to resue, ❎ to reset", 8, 120, 7)
-end
+
 -->8
 --blocks and balls and paddles
 
@@ -95,9 +99,9 @@ p.y = 120
 p.w = 20
 p.h = 4
 p.c = 4 
-p.acc = 900
-p.drag = 180
-p.maxv = 90
+p.acc = 1200
+p.drag = 1200
+p.maxv = 120
 p.vx = 0
 p.vy = 0
 p.dx = 0
@@ -234,6 +238,7 @@ function collisions()
   p.x = rw.x - p.w
   p.vx = 0
  end
+
  --paddle-balls
  for b in all(balls) do
   if aabb(b, p) then
@@ -257,6 +262,9 @@ function collisions()
     else
      b.diry *= -1
     end
+    eject_a_from_b(b, w)
+
+    if (is_cfg_on("wall shake")) screen_shake(.25, 1, 0.025)
    end
   end
  end
@@ -309,17 +317,137 @@ end
 --juicebar
 
 config = {}
-config.color = false
-config.wall_screen_shake = false
+config[#config+1] = {name = "color", enabled=true} 
+config[#config+1] = {name = "wall shake", enabled=true}
+--config[#config+1] = {name = "", enabled=false} 
 
-selection = "no_juice"
+selection = 1
+
+--juice vars
+
+--amount of screen shake time remaining
+shake⧗=0
+shake_size=1
+shake_freq = 0.05
+shake_dir = {x=0,y=0}
+shake_freq⧗ =0
+
+function update_juice_bar_state()
+ if btnp(🅾️) then
+  gs = "play"
+ elseif btnp(❎) then
+  gs = "play"
+  reset_level()
+ end
+
+ update_config()
+end
 
 function update_config() 
+ if (btnp(⬆️)) selection = mid(1,selection-1,#config)
+ if (btnp(⬇️)) selection = mid(1,selection+1,#config)
+ if (btnp(⬅️) or btnp(➡️)) config[selection].enabled = not config[selection].enabled
+end
 
+function draw_juice_bar_state()
+ cls(0)
+ --color config toggle
+ if not is_cfg_on("color") then
+  color_off_juice_bar()
+ else
+  pal()
+ end
+ draw_config()
+ print("🅾️ to resue, ❎ to reset", 16, 120, 7)
 end
 
 function draw_config()
+ rectfill(0, 0, 128, 116, 3)
+ rectfill(0,0, 128, 12, 11)
+ local x,y = print("the juice bar", 30, 4, 3)
+ y+=6
+ for i=1,#config do
+  c=9
+  if (i == selection) c=10
+  color(c)
+  local item = config[i]
+  local enabledstr = item.enabled and "on  " or "off "
+  x,y = print(enabledstr, 30, y, item.enabled and 11 or 8)
+  print(item.name, x, y-6, c)
+ end
+end
 
+function is_cfg_on(name)
+ for item in all(config) do
+  if name == item.name then
+   return item.enabled
+  end
+ end
+end
+
+function color_off() 
+ for c=1,15 do
+  pal(c,7)
+ end
+end
+
+function color_off_juice_bar()
+ pal(0,0)
+ pal(1,7)
+ pal(2,7)
+ pal(3,0)
+ pal(4,7)
+ pal(5,7)
+ pal(6,7)
+ pal(7,7)
+ pal(8,7)
+ pal(9,7)
+ pal(10,7)
+ pal(11,7)
+ pal(12,7)
+ pal(13,7)
+ pal(14,7)
+ pal(15,7)
+end
+--simple 8 directional screensake
+function screen_shake(time, size, frequency)
+ shake⧗ = time
+ shake_size = size
+ shake_freq = frequency
+ shake_freq⧗ = shake_freq
+ make_shake_dir()
+end
+
+function make_shake_dir()
+ local newx = flr(rnd(shake_size*2))-shake_size\2
+ local newy = flr(rnd(shake_size*2))-shake_size\2
+ while shake_dir.x == newx and shake_dir.y == newy do
+   newx = flr(rnd(shake_size*2))-shake_size\2
+   newy = flr(rnd(shake_size*2))-shake_size\2
+ end
+ shake_dir.x = newx
+ shake_dir.y = newy
+end
+
+function update_screen_shake()
+ shake⧗ -= dt
+ if shake⧗ <= 0 then
+  shake⧗ = 0
+  shake_dir.x = 0
+  shake_dir.y = 0
+  return
+ end
+
+ shake_freq⧗ -= dt
+ debug = shake_dir.x .. " " .. shake_dir.y .. ", " .. shake⧗ .. ", " .. shake_freq⧗ 
+ if shake_freq⧗ <= 0 then
+  make_shake_dir()
+  shake_freq⧗ = shake_freq
+ end
+end
+
+function draw_screen_shake()
+ camera(shake_dir.x, shake_dir.y)
 end
 -->8
 --utils
@@ -336,6 +464,7 @@ function aabb(a, b)
 end
 
 --true if horizontal hit, false if vertical
+--this could break for fast-moving objects
 function hit_axis_aabb(a, b)
  local intx = 0
  local inty = 0
@@ -347,6 +476,23 @@ function hit_axis_aabb(a, b)
  end
  return false
 end
+
+--this could break for fast moving objects
+function eject_a_from_b(a, b)
+ if hit_axis_aabb(a, b) then
+  --determine which horizontal side to eject from
+  --is middle of a to the left or right of the middle of b
+  if (a.x + a.w/2) < (b.x + b.w/2) then
+   a.x = b.x - a.w
+  else
+   a.x = b.w + b.w
+  end
+ else
+
+ end
+end
+
+
 
 function normalize(x,y)
 	--magnitude
