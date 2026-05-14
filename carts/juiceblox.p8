@@ -418,7 +418,8 @@ function draw_config()
   local item = config[i]
   local enabledstr = item.enabled and "on  " or "off "
   x,y = print(enabledstr, 30, y, item.enabled and 11 or 8)
-  print(item.name, x, y-6, c)
+  local select_ind = (i==selection) and ">" or ""
+  print(select_ind .. item.name, x, y-6, c)
  end
 end
 
