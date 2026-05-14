@@ -1,11 +1,11 @@
 pico-8 cartridge // http://www.pico-8.com
 version 43
 __lua__
-	--juiceblox
+--juiceblox
 --by: josh
 
 --game state
-gs = "title"
+gs = "play"
 
 function _init()
  
@@ -30,9 +30,11 @@ function _update60()
 end
 
 function update_play_state()
- paddle_input() 
+ paddle_input()
+ 
  update_balls()
  collisions()
+ update_ball_trails() 
  update_screen_shake()
 
  if btnp(🅾️) then
@@ -82,6 +84,7 @@ function draw_play_state()
 
  draw_walls()
  draw_paddle()
+ draw_ball_trails()
  draw_balls()
  draw_blocks()
 
@@ -109,6 +112,8 @@ p.dy = 0
 
 balls = {}
 
+add_ball_cd = 1
+add_ball⧗ = 0
 
 --walls
 wc = 8
@@ -179,17 +184,21 @@ function paddle_input()
  end
 end
 
-function add_ball(x,y) 
-	b = {}
-
-	b.w = 3
-	b.h = 3
-	b.s = 100
-	b.dirx = 1 
-	b.diry = 1
- b.c = 6
+function add_ball(x,y,s,xdir,ydir,color, w, h) 
+ if #balls > 1 and time() - add_ball⧗ < add_ball_cd then
+  return
+ end
+ add_ball⧗ = time()
+	local b = {}
+	b.w = w or  3
+	b.h = h or 3
+	b.s = s or 100
+	b.dirx = xdir or 1 
+	b.diry = ydir or 1
+ b.c = color or 6
 	b.x = x or p.x
 	b.y = y or p.y - b.h
+ b.trail = {}
  add(balls, b)
 end
 
@@ -200,8 +209,8 @@ function make_block_of_blocks(rows, cols, spacing, margin)
  local offsetx = lw.w + margin
  local offsety = tw.h + margin
  
- printh("----- " .. rows .. " , " .. cols .. ", " .. spacing .. ", " .. margin, "blocks.txt", true)
- printh("areaw,areah: " .. areaw .. ", " .. areah, "blocks.txt", false)
+ --printh("----- " .. rows .. " , " .. cols .. ", " .. spacing .. ", " .. margin, "blocks.txt", true)
+ --printh("areaw,areah: " .. areaw .. ", " .. areah, "blocks.txt", false)
  for r=1,rows do 
   for c=1,cols do
    b = {}
@@ -218,13 +227,23 @@ function make_block_of_blocks(rows, cols, spacing, margin)
 end
 
 function update_balls()
+ local remove_list = {}
+ debug = #balls .. " - " .. time()
 	for b in all(balls) do
 		local dx, dy = normalize(b.dirx, b.diry)
 		dx = dt * dx * b.s
   dy = dt * dy * b.s
   b.x += dx
   b.y += dy
+
+  if b.y > 128 then
+   add(remove_list, b)
+  end
 	end
+ for rb in all(remove_list) do
+  -- debug = "removed!"
+  del(balls, rb)
+ end
 end
 
 function collisions()
@@ -240,8 +259,12 @@ function collisions()
  end
 
  --paddle-balls
+ --debug = #balls
+ local add_a_ball = false
  for b in all(balls) do
   if aabb(b, p) then
+   
+   if (is_cfg_on("new ball on paddle hit")) add_a_ball=true
    if hit_axis_aabb(b, p) then
     hitinfo.hit = true
     --reflect horiz
@@ -249,8 +272,15 @@ function collisions()
    else
     b.diry *= -1
    end
+   
   end
  end
+
+ if add_a_ball then
+  add_ball(rnd(80)+20, 25, 100, rnd(2)-1, 1)
+ end
+
+
 
  --balls-walls
  for b in all(balls) do
@@ -288,8 +318,6 @@ function collisions()
  end
 
  --balls-balls
-
-
 end
 
 function draw_walls()
@@ -321,7 +349,9 @@ end
 config = {}
 config[#config+1] = {name = "color", enabled=true} 
 config[#config+1] = {name = "block shake", enabled=false}
-config[#config+1] = {name = "sfx", enabled=true} 
+config[#config+1] = {name = "sfx", enabled=false}
+config[#config+1] = {name = "ball trails", enabled=false}
+config[#config+1] = {name = "new ball on paddle hit", enabled=true} 
 --config[#config+1] = {name = "", enabled=false} 
 
 selection = 1
@@ -468,6 +498,41 @@ function play_sfx(sfxname)
 end
 
 
+function update_ball_trails()
+ if (not is_cfg_on("ball trails")) return
+ for b in all(balls) do
+  local remove_list = {}
+  for pt in all(b.trail) do
+   pt.w *= 0.9
+   pt.h *= 0.9
+   if pt.w < 0.5 then
+    add(remove_list, pt)
+   end
+  end
+  part = {}
+  part.x = b.x
+  part.y = b.y
+  part.w = b.w
+  part.h = b.h
+  part.c = b.c
+  add(b.trail, part)
+  for rp in all(remove_list) do
+   del(b.trail, rp)
+  end
+ end
+end
+
+function draw_ball_trails()
+ if (not is_cfg_on("ball trails")) return
+ for b in all(balls) do
+  for pt in all(b.trail) do
+   rectfill(pt.x, pt.y, pt.x + pt.w-1, pt.y+pt.h-1, 5)
+   --circfill(pt.x, pt.y, pt.w, pt.c)
+   --pset(pt.x, pt.y, pt.c)
+  end
+ end
+end
+
 -->8
 --utils
 function aabb(a, b)
@@ -506,12 +571,8 @@ function eject_a_from_b(a, b)
   else
    a.x = b.w + b.w
   end
- else
-
  end
 end
-
-
 
 function normalize(x,y)
 	--magnitude
