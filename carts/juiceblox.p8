@@ -199,7 +199,7 @@ function make_block_of_blocks(rows, cols, spacing, margin)
  local areah = 80 - margin 
  local offsetx = lw.w + margin
  local offsety = tw.h + margin
- debug = cols
+ 
  printh("----- " .. rows .. " , " .. cols .. ", " .. spacing .. ", " .. margin, "blocks.txt", true)
  printh("areaw,areah: " .. areaw .. ", " .. areah, "blocks.txt", false)
  for r=1,rows do 
@@ -263,7 +263,7 @@ function collisions()
      b.diry *= -1
     end
     eject_a_from_b(b, w)
-
+    play_sfx("ball-wall")
     if (is_cfg_on("wall shake")) screen_shake(.25, 1, 0.025)
    end
   end
@@ -281,6 +281,8 @@ function collisions()
      b.diry *= -1
     end
     del(blocks, bx)
+    play_sfx("destroy-block")
+    if (is_cfg_on("block shake")) screen_shake(0.05, 1, 0.05)
    end
   end
  end
@@ -318,12 +320,19 @@ end
 
 config = {}
 config[#config+1] = {name = "color", enabled=true} 
-config[#config+1] = {name = "wall shake", enabled=true}
+config[#config+1] = {name = "block shake", enabled=false}
+config[#config+1] = {name = "sfx", enabled=true} 
 --config[#config+1] = {name = "", enabled=false} 
 
 selection = 1
 
 --juice vars
+
+
+--sfx
+sfxs = {}
+sfxs["destroy-block"] = 0 
+sfxs["ball-wall"] = 1
 
 --amount of screen shake time remaining
 shake⧗=0
@@ -439,7 +448,6 @@ function update_screen_shake()
  end
 
  shake_freq⧗ -= dt
- debug = shake_dir.x .. " " .. shake_dir.y .. ", " .. shake⧗ .. ", " .. shake_freq⧗ 
  if shake_freq⧗ <= 0 then
   make_shake_dir()
   shake_freq⧗ = shake_freq
@@ -449,6 +457,17 @@ end
 function draw_screen_shake()
  camera(shake_dir.x, shake_dir.y)
 end
+
+function play_sfx(sfxname)
+ 
+ if is_cfg_on("sfx") then
+  if sfxs[sfxname] != nil then
+   sfx(sfxs[sfxname])
+  end
+ end
+end
+
+
 -->8
 --utils
 function aabb(a, b)
@@ -511,3 +530,6 @@ __gfx__
 00077000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 00077000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
 00700700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+__sfx__
+00010000137500e7500175001750017500075012750197501c75000700007001e7000470006700027000070001700017000070000700007000070000700007000070000700007000070000700007000070000700
+000100000975009750097500975009750097500975009750087500875007750067500575003750007500170000700000000000000000000000000000000000000000000000000000000000000000000000000000
