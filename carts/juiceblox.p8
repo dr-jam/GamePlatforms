@@ -5,15 +5,13 @@ __lua__
 --by: josh
 
 --game state
-gs = "play"
+gs = "title"
 
 function _init()
- 
-	last_update = time()
+ last_update = time()
 	last_draw = time()
 	dt = 0
  reset_level()
-
 end
 
 function _update60()
@@ -67,7 +65,7 @@ end
 
 function draw_title_state()
  cls(0)
- print("juiceblox", 50, 60, 9)
+ print("\^t\^oaffjuiceblox", 50, 60, 9)
 end
 
 function draw_play_state()
@@ -88,7 +86,7 @@ function draw_play_state()
  draw_balls()
  draw_blocks()
 
- print(debug)
+--print(debug)
 end
 
 
@@ -102,9 +100,9 @@ p.y = 120
 p.w = 20
 p.h = 4
 p.c = 4 
-p.acc = 1200
-p.drag = 1200
-p.maxv = 120
+p.acc = 1500
+p.drag = 1500
+p.maxv = 150
 p.vx = 0
 p.vy = 0
 p.dx = 0
@@ -221,14 +219,14 @@ function make_block_of_blocks(rows, cols, spacing, margin)
    b.c = 10
    setmetatable(b, blocksmt)
    add(blocks, b)
-   printh(b, "blocks.txt", false)
+   --printh(b, "blocks.txt", false)
   end
  end
 end
 
 function update_balls()
  local remove_list = {}
- debug = #balls .. " - " .. time()
+
 	for b in all(balls) do
 		local dx, dy = normalize(b.dirx, b.diry)
 		dx = dt * dx * b.s
@@ -241,10 +239,10 @@ function update_balls()
   end
 	end
  for rb in all(remove_list) do
-  -- debug = "removed!"
   del(balls, rb)
  end
 end
+
 
 function collisions()
  --paddle-walls
@@ -259,7 +257,6 @@ function collisions()
  end
 
  --paddle-balls
- --debug = #balls
  local add_a_ball = false
  for b in all(balls) do
   if aabb(b, p) then
@@ -279,8 +276,6 @@ function collisions()
  if add_a_ball then
   add_ball(rnd(80)+20, 25, 100, rnd(2)-1, 1)
  end
-
-
 
  --balls-walls
  for b in all(balls) do
@@ -317,6 +312,16 @@ function collisions()
   end
  end
 
+ --balls-bumper
+ if is_cfg_on("bumper") then
+  for b in all(balls) do
+    if b.y >= 126 then
+     b.diry *= -1
+    end
+  end
+ end
+
+
  --balls-balls
 end
 
@@ -347,11 +352,12 @@ end
 --juicebar
 
 config = {}
-config[#config+1] = {name = "color", enabled=true} 
+config[#config+1] = {name = "color", enabled=false} 
 config[#config+1] = {name = "block shake", enabled=false}
 config[#config+1] = {name = "sfx", enabled=false}
 config[#config+1] = {name = "ball trails", enabled=false}
-config[#config+1] = {name = "new ball on paddle hit", enabled=true} 
+config[#config+1] = {name = "new ball on paddle hit", enabled=false}
+config[#config+1] = {name = "bumper", enabled=true} 
 --config[#config+1] = {name = "", enabled=false} 
 
 selection = 1
